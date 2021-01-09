@@ -2,8 +2,7 @@
 //  ContentView.swift
 //  TestingCombine
 //
-//  Created by Medyannik Dima on 09.01.2021.
-//  Copyright © 2021 Medyannik Dima. All rights reserved.
+//  Created by Medyannik Dmitri on 09.01.2021.
 //
 
 import SwiftUI
