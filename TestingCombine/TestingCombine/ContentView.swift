@@ -8,10 +8,24 @@
 
 import SwiftUI
 
+//ViewModel
+import Combine
+
+final class ViewModel: ObservableObject {
+    @Published var time = ""
+    
+    init() {
+        
+    }
+}
+
 struct ContentView: View {
+    
+    @StateObject var viewModel = ViewModel()
+    
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        Text(viewModel.time)
+            .padding()
     }
 }
 
