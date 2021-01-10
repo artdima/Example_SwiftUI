@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A43DD9125AB0FA800D14EF5 /* CryptoPriceViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A43DD9025AB0FA800D14EF5 /* CryptoPriceViewerApp.swift */; };
-		2A43DD9325AB0FA800D14EF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A43DD9225AB0FA800D14EF5 /* ContentView.swift */; };
+		2A43DD9325AB0FA800D14EF5 /* CoinsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A43DD9225AB0FA800D14EF5 /* CoinsList.swift */; };
 		2A43DD9525AB0FAA00D14EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A43DD9425AB0FAA00D14EF5 /* Assets.xcassets */; };
 		2A43DD9825AB0FAA00D14EF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A43DD9725AB0FAA00D14EF5 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		2A43DD8D25AB0FA800D14EF5 /* CryptoPriceViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPriceViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A43DD9025AB0FA800D14EF5 /* CryptoPriceViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPriceViewerApp.swift; sourceTree = "<group>"; };
-		2A43DD9225AB0FA800D14EF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A43DD9225AB0FA800D14EF5 /* CoinsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsList.swift; sourceTree = "<group>"; };
 		2A43DD9425AB0FAA00D14EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A43DD9725AB0FAA00D14EF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A43DD9925AB0FAA00D14EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				2A43DD9025AB0FA800D14EF5 /* CryptoPriceViewerApp.swift */,
-				2A43DD9225AB0FA800D14EF5 /* ContentView.swift */,
+				2A43DD9225AB0FA800D14EF5 /* CoinsList.swift */,
 				2A43DD9425AB0FAA00D14EF5 /* Assets.xcassets */,
 				2A43DD9925AB0FAA00D14EF5 /* Info.plist */,
 				2A43DD9625AB0FAA00D14EF5 /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A43DD9325AB0FA800D14EF5 /* ContentView.swift in Sources */,
+				2A43DD9325AB0FA800D14EF5 /* CoinsList.swift in Sources */,
 				2A43DD9125AB0FA800D14EF5 /* CryptoPriceViewerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
