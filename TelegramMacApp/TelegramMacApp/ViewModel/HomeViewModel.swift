@@ -14,4 +14,5 @@ class HomeViewModel: ObservableObject {
     @Published var search = ""
     @Published var message = ""
     @Published var isExpanded = false
+    @Published var pickedTab = "Media"
 }
