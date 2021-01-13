@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AA5505425AF7E8C00B02DE0 /* RecentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5505325AF7E8C00B02DE0 /* RecentCardView.swift */; };
+		2AA5505725AF92AD00B02DE0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5505625AF92AD00B02DE0 /* DetailView.swift */; };
 		2ACC618425AE43280004FB6A /* TelegramMacAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC618325AE43280004FB6A /* TelegramMacAppApp.swift */; };
 		2ACC618625AE43280004FB6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC618525AE43280004FB6A /* ContentView.swift */; };
 		2ACC618825AE432D0004FB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC618725AE432D0004FB6A /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AA5505325AF7E8C00B02DE0 /* RecentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCardView.swift; sourceTree = "<group>"; };
+		2AA5505625AF92AD00B02DE0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		2ACC618025AE43280004FB6A /* TelegramMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelegramMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACC618325AE43280004FB6A /* TelegramMacAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramMacAppApp.swift; sourceTree = "<group>"; };
 		2ACC618525AE43280004FB6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				2ACC619A25AE44710004FB6A /* TabButton.swift */,
 				2ACC61A025AEBBB80004FB6A /* BlurView.swift */,
 				2AF2831025AEC070003A3502 /* AllChatsView.swift */,
+				2AA5505325AF7E8C00B02DE0 /* RecentCardView.swift */,
+				2AA5505625AF92AD00B02DE0 /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,8 +196,10 @@
 				2ACC619B25AE44710004FB6A /* TabButton.swift in Sources */,
 				2AF2831725AEC34B003A3502 /* Message.swift in Sources */,
 				2ACC619825AE44190004FB6A /* Home.swift in Sources */,
+				2AA5505725AF92AD00B02DE0 /* DetailView.swift in Sources */,
 				2AF2831425AEC228003A3502 /* RecentMessage.swift in Sources */,
 				2ACC619E25AE47800004FB6A /* HomeViewModel.swift in Sources */,
+				2AA5505425AF7E8C00B02DE0 /* RecentCardView.swift in Sources */,
 				2ACC618425AE43280004FB6A /* TelegramMacAppApp.swift in Sources */,
 				2ACC61A125AEBBB80004FB6A /* BlurView.swift in Sources */,
 			);

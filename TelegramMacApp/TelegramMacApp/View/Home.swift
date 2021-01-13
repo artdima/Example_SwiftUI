@@ -12,7 +12,7 @@ struct Home: View {
     @StateObject var homeData = HomeViewModel()
     
     var body: some View {
-        HStack {
+        HStack(spacing: 0) {
             ///TabBar
             VStack {
                 TabButton(image: "message", title: "All Chats", selectedTab: $homeData.selectedTab)
@@ -29,7 +29,7 @@ struct Home: View {
             ///Tab Content
             ZStack {
                 switch homeData.selectedTab {
-                case "All Chats": AllChatsView()
+                case "All Chats": NavigationView { AllChatsView() }
                 case "Personal": Text("Personal")
                 case "Bots": Text("Bots")
                 case "Edit": Text("Edit")
