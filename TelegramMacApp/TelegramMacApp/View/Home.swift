@@ -16,15 +16,10 @@ struct Home: View {
             ///TabBar
             VStack {
                 TabButton(image: "message", title: "All Chats", selectedTab: $homeData.selectedTab)
-                
                 TabButton(image: "person", title: "Personal", selectedTab: $homeData.selectedTab)
-                
                 TabButton(image: "bubble.middle.bottom", title: "Bots", selectedTab: $homeData.selectedTab)
-                
                 TabButton(image: "slider.horizontal.3", title: "Edit", selectedTab: $homeData.selectedTab)
-                
                 Spacer()
-                
                 TabButton(image: "gear", title: "Settings", selectedTab: $homeData.selectedTab)
             }
             .padding()
@@ -34,7 +29,7 @@ struct Home: View {
             ///Tab Content
             ZStack {
                 switch homeData.selectedTab {
-                case "All Chats": Text("All Chats")
+                case "All Chats": AllChatsView()
                 case "Personal": Text("Personal")
                 case "Bots": Text("Bots")
                 case "Edit": Text("Edit")
@@ -45,6 +40,7 @@ struct Home: View {
         }
         .ignoresSafeArea(.all, edges: .all)
         .frame(width: screen.width / 1.3, height: screen.height - 160)
+        .environmentObject(homeData)
     }
 }
 
