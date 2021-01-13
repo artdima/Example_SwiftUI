@@ -13,5 +13,8 @@ struct TelegramMacAppApp: App {
         WindowGroup {
             ContentView()
         }
+        
+        // Hidding Title Bar ...
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }

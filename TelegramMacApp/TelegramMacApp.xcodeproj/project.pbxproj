@@ -14,6 +14,7 @@
 		2ACC619825AE44190004FB6A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC619725AE44190004FB6A /* Home.swift */; };
 		2ACC619B25AE44710004FB6A /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC619A25AE44710004FB6A /* TabButton.swift */; };
 		2ACC619E25AE47800004FB6A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC619D25AE47800004FB6A /* HomeViewModel.swift */; };
+		2ACC61A125AEBBB80004FB6A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC61A025AEBBB80004FB6A /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2ACC619725AE44190004FB6A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2ACC619A25AE44710004FB6A /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		2ACC619D25AE47800004FB6A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2ACC61A025AEBBB80004FB6A /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				2ACC619725AE44190004FB6A /* Home.swift */,
 				2ACC619A25AE44710004FB6A /* TabButton.swift */,
+				2ACC61A025AEBBB80004FB6A /* BlurView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				2ACC619825AE44190004FB6A /* Home.swift in Sources */,
 				2ACC619E25AE47800004FB6A /* HomeViewModel.swift in Sources */,
 				2ACC618425AE43280004FB6A /* TelegramMacAppApp.swift in Sources */,
+				2ACC61A125AEBBB80004FB6A /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

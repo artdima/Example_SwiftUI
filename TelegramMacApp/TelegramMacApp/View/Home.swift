@@ -13,6 +13,7 @@ struct Home: View {
     
     var body: some View {
         HStack {
+            ///TabBar
             VStack {
                 TabButton(image: "message", title: "All Chats", selectedTab: $homeData.selectedTab)
                 
@@ -23,12 +24,27 @@ struct Home: View {
                 TabButton(image: "slider.horizontal.3", title: "Edit", selectedTab: $homeData.selectedTab)
                 
                 Spacer()
+                
+                TabButton(image: "gear", title: "Settings", selectedTab: $homeData.selectedTab)
             }
             .padding()
-            .padding(.top)
-            Spacer()
+            .padding(.top, 35)
+            .background(BlurView())
+            
+            ///Tab Content
+            ZStack {
+                switch homeData.selectedTab {
+                case "All Chats": Text("All Chats")
+                case "Personal": Text("Personal")
+                case "Bots": Text("Bots")
+                case "Edit": Text("Edit")
+                default: Text("Settings")
+                }
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-        .frame(width: screen.width / 1.2, height: screen.height - 60)
+        .ignoresSafeArea(.all, edges: .all)
+        .frame(width: screen.width / 1.3, height: screen.height - 160)
     }
 }
 
