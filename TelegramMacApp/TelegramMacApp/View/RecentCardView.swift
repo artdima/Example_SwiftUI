@@ -28,12 +28,14 @@ struct RecentCardView: View {
                     VStack {
                         Text(recentMsg.lastMsgTime)
                             .font(.caption)
-                        Text(recentMsg.pendingMsgs)
-                            .font(.caption2)
-                            .padding(5)
-                            .foregroundColor(.white)
-                            .background(Color.blue)
-                            .clipShape(Circle())
+                        if recentMsg.pendingMsgs != "" {
+                            Text(recentMsg.pendingMsgs)
+                                .font(.caption2)
+                                .padding(5)
+                                .foregroundColor(.white)
+                                .background(Color.blue)
+                                .clipShape(Circle())
+                        }
                     }
                 }
             }
