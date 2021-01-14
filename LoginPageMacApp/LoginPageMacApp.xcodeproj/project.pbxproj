@@ -11,6 +11,7 @@
 		2AA5506825B0AAB700B02DE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5506725B0AAB700B02DE0 /* ContentView.swift */; };
 		2AA5506A25B0AABB00B02DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA5506925B0AABB00B02DE0 /* Assets.xcassets */; };
 		2AA5506D25B0AABB00B02DE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA5506C25B0AABB00B02DE0 /* Preview Assets.xcassets */; };
+		2AA5507925B0ABDA00B02DE0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5507825B0ABDA00B02DE0 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2AA5506C25B0AABB00B02DE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2AA5506E25B0AABB00B02DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AA5506F25B0AABB00B02DE0 /* LoginPageMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoginPageMacApp.entitlements; sourceTree = "<group>"; };
+		2AA5507825B0ABDA00B02DE0 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		2AA5506425B0AAB700B02DE0 /* LoginPageMacApp */ = {
 			isa = PBXGroup;
 			children = (
+				2AA5507625B0ABB500B02DE0 /* View */,
 				2AA5506525B0AAB700B02DE0 /* LoginPageMacAppApp.swift */,
 				2AA5506725B0AAB700B02DE0 /* ContentView.swift */,
 				2AA5506925B0AABB00B02DE0 /* Assets.xcassets */,
@@ -69,6 +72,14 @@
 				2AA5506C25B0AABB00B02DE0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AA5507625B0ABB500B02DE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AA5507825B0ABDA00B02DE0 /* Login.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA5507925B0ABDA00B02DE0 /* Login.swift in Sources */,
 				2AA5506825B0AAB700B02DE0 /* ContentView.swift in Sources */,
 				2AA5506625B0AAB700B02DE0 /* LoginPageMacAppApp.swift in Sources */,
 			);
