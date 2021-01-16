@@ -15,5 +15,5 @@
 ![Login Page](https://github.com/artdima/Example_SwiftUI/blob/master/LoginPageMacApp/LoginPage.png)
 
 * [Online Shop App]() - Show how to Create a Stylish Online Shopping App UI With Hero Animations ( Matched Geometry Effect ) Using SwiftUI 2.0
-![Online Shop App](https://github.com/artdima/Example_SwiftUI/blob/master/OnlineShopApp/ShopOnlineApp.gif | width=200)
+![Online Shop App](https://github.com/artdima/Example_SwiftUI/blob/master/OnlineShopApp/ShopOnlineApp.gif){:height="50%" width="50%"}
 
