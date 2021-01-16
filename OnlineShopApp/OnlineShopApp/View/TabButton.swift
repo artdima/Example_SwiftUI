@@ -8,13 +8,28 @@
 import SwiftUI
 
 struct TabButton: View {
+    @Binding var selectedTab : String
+    var title : String
+    var animation : Namespace.ID
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct TabButton_Previews: PreviewProvider {
-    static var previews: some View {
-        TabButton()
+        
+        Button(action: {
+            withAnimation(.spring()){selectedTab = title}
+        }, label: {
+            VStack(alignment: .leading, spacing: 6, content: {
+                Text(title)
+                    .fontWeight(.heavy)
+                    .foregroundColor(selectedTab == title ? .black : .gray)
+                
+                if selectedTab == title{
+                    Capsule()
+                        .fill(Color.black)
+                        .frame(width: 40, height: 4)
+                        .matchedGeometryEffect(id: "Tab", in: animation)
+                }
+            })
+            .frame(width: 100)
+        })
     }
 }
