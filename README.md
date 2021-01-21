@@ -9,11 +9,11 @@
 * [Crypto Price Viewer(MVVM + Networking)](https://github.com/artdima/Example_SwiftUI/tree/master/CryptoPriceViewer) - An intro into how to use SwiftUI and Combine to retrieve crypto prices from a public api and display them using MVVM. We will cover ObservableObject, Published, ObservedObject and more.
 
 * [Telegram Mac App](https://github.com/artdima/Example_SwiftUI/tree/master/TelegramMacApp) - Show how to create a Stylish Telegram Chat App UI With SideBar List Style Using SwiftUI 2.0 
-![Telegram Mac App](https://github.com/artdima/Example_SwiftUI/blob/master/TelegramMacApp/TelegramApp.gif?raw=true)
+<img src="https://github.com/artdima/Example_SwiftUI/blob/master/TelegramMacApp/TelegramApp.gif?raw=true" width="60%">
 
 * [Login Page Mac App](https://github.com/artdima/Example_SwiftUI/tree/master/LoginPageMacApp) - Show how to create a Stylish Login Page UI For macOS Big Sur Using SwiftUI 2.0
-![Login Page](https://github.com/artdima/Example_SwiftUI/blob/master/LoginPageMacApp/LoginPage.png)
+<img src="https://github.com/artdima/Example_SwiftUI/blob/master/LoginPageMacApp/LoginPage.png" width="50%">
 
 * [Online Shop App]() - Show how to Create a Stylish Online Shopping App UI With Hero Animations ( Matched Geometry Effect ) Using SwiftUI 2.0
-<img src="https://github.com/artdima/Example_SwiftUI/blob/master/OnlineShopApp/ShopOnlineApp.gif" width="50%">
+<img src="https://github.com/artdima/Example_SwiftUI/blob/master/OnlineShopApp/ShopOnlineApp.gif" width="35%">
 
