@@ -30,7 +30,7 @@ struct CustomTabs: View {
             Button(action: {
                 self.index = 0
             }, label: {
-                Image(systemName: "books.vertical.fill")
+                Image(systemName: "books.vertical")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .padding()
@@ -71,5 +71,6 @@ struct CustomTabs: View {
             .foregroundColor(Color.black.opacity(self.index == 3 ? 1 : 0.2))
         }
         .padding(.horizontal, 35)
+        .frame(height: 60)
     }
 }
