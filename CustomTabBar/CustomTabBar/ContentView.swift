@@ -14,6 +14,8 @@ struct ContentView: View {
             Spacer()
             CustomTabs(index: $index)
         }
+        .background(Color.red)
+        .edgesIgnoringSafeArea(.top)
     }
 }
 
@@ -47,6 +49,18 @@ struct CustomTabs: View {
                     .padding()
             })
             .foregroundColor(Color.black.opacity(self.index == 1 ? 1 : 0.2))
+            .offset(x: 10)
+            Spacer(minLength: 0)
+            
+            Button(action: {
+                
+            }, label: {
+                Image(systemName: "plus.circle.fill")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding()
+            })
+            .offset(y: -27)
             Spacer(minLength: 0)
             
             Button(action: {
@@ -58,6 +72,7 @@ struct CustomTabs: View {
                     .padding()
             })
             .foregroundColor(Color.black.opacity(self.index == 2 ? 1 : 0.2))
+            .offset(x: -10)
             Spacer(minLength: 0)
             
             Button(action: {
@@ -70,7 +85,8 @@ struct CustomTabs: View {
             })
             .foregroundColor(Color.black.opacity(self.index == 3 ? 1 : 0.2))
         }
-        .padding(.horizontal, 35)
+        .padding(.horizontal, 30)
         .frame(height: 60)
+        .background(Color.white)
     }
 }
